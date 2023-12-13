@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(netmedia/netbg.jpg);
+}
+img{
+    height: 200px;
+    width: 20Opx;
+    padding-left: 20PX;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-color: rgba(12, 5, 5, 0.9);
+    width: 450PX;
+    height: 600px;
+}
+.inner_con{
+    
+    margin-top: 20%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: white;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+} 
+
+.input [type='text']::placeholder, .input [type='password']::placeholder {
+    color: rgb(209, 206, 206);
+    font-size: larger;
+} 
+
+#i {
+    background-color: rgb(139, 137, 137);
+    height: 40px;
+    border-radius:4px;
+    border: none;
+    border-bottom: solid 3px orange;
+    outline: none;
+    padding-left: 5px;
+    padding: 20px;
+}
+#b{
+    height: 40px;
+    border-radius:4px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: larger;
+
+
+}
+.H{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    padding-top: 20px;
+    color: grey;
+    
+}
+#s{
+    padding-top: 20px;
+    color: grey;
+    
+}
+#captcha{
+    padding-top: 15px ;
+    color: grey;
+
+    
+}
+a{
+    text-decoration: none ;
+    color: blue;
+}
